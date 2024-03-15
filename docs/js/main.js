@@ -21,7 +21,7 @@ recarga.addEventListener("click", cambiarCaptcha);
 
 function cambiarCaptcha() {
     captcha = Math.floor(Math.random() * captchas.length + 1);
-    document.querySelector(".img-captcha").src = "../images/captcha/" + captcha + ".jpg";
+    document.querySelector(".img-captcha").src = "./images/captcha/" + captcha + ".jpg";
 }
 
 
